@@ -2,6 +2,10 @@
 
 int main(void)
 {
-    printf("My initials are: %c%c%c and my age %d.\n", 'J','R','E',28);
+    char f,m,l;
+    int age;
+
+    scanf("%c %c %c %d", &f, &m, &l, &age);
+    printf("My initials are: %c%c%c and my age %d.\n", f,m,l,age);
     return(0);
 }
