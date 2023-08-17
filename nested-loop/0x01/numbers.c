@@ -2,11 +2,12 @@
 
 int main()
 {
-    int a;
-    for (a=0; a < 11; a++);
+    int a; 
+
+    for (a = 0; a < 10; a++)
     {
-    printf("%d", a);
+       printf("%d", a);
     }
-    _putchar('\n');
+    putchar('\n');
     return(0);
 }
