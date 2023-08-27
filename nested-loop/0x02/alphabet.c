@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 
-int main()
-{
-    int b;
 
-    for (b = 97; b < 123; b++)
+char main()
+{
+ char abs;
+
+    for (abs = 'a'; abs < 'b'; abs++)
     {
-        putchar(b);
+        _putchar(abs);
     }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
