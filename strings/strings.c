@@ -4,7 +4,7 @@ int main()
 {
     char name[30];
     printf("enter name:");
-//     scanf("%s%s", fname, lname);
+    scanf("%5s",name);
 //     printf("%s %s", fname, lname);
 
     gets(name);
