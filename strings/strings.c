@@ -2,8 +2,11 @@
 
 int main()
 {
-    char  fname[30], lname[30];
+    char name[30];
     printf("enter name:");
-    scanf("%s%s", fname, lname);
-    printf("%s %s", fname, lname);
+//     scanf("%s%s", fname, lname);
+//     printf("%s %s", fname, lname);
+
+    gets(name);
+    printf("%s", name);
 }
