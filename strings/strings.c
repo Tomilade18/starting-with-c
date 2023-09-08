@@ -9,4 +9,6 @@ int main()
 
     gets(name);
     printf("%s", name);
+    puts(name);
+    puts(name);
 }
