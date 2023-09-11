@@ -7,10 +7,7 @@ int main()
     int count = 0, i = 0;
     printf("enter name:");
     gets(name);
-    while(name[i] != '\0')
-    {
-        count++;
-        i++;
-    }
+    count = strlen(name);
+    puts(name);
     printf("%d", count);
 }
